@@ -11,7 +11,7 @@
 #include "esp_log.h"
 #include "nvs_flash.h"
 
-
+//commit 3, pt1
 
 
 //#include "ledc.h"
@@ -126,6 +126,8 @@ static void event_handler(void* arg, esp_event_base_t event_base,
     }
 }
 
+//commit 3, pt4
+
 void wifi_init_sta(void)
 {
     s_wifi_event_group = xEventGroupCreate();
@@ -198,6 +200,7 @@ void wifi_init_sta(void)
     //vEventGroupDelete(s_wifi_event_group);
 }
 
+//commit 3, pt3
 
 void wl_homie_connect_handler()
 {
@@ -234,6 +237,9 @@ void wl_homie_msg_handler(char *subtopic, char *payload)
         }
     }
 }
+
+
+//commit 3, pt2
 
 
 void app_main(void)
