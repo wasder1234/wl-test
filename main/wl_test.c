@@ -11,15 +11,15 @@
 #include "esp_log.h"
 #include "nvs_flash.h"
 
-#include "lwip/err.h"
-#include "lwip/sys.h"
 
 
-#include "ledc.h"
-#include "homie.h"
-#include "driver/gpio.h"
+
+//#include "ledc.h"
+//#include "homie.h"
+//#include "driver/gpio.h"
 
 // GitHubTest. Branch2
+// GitHubTest1. Branch2
 
 //--------------- user defined --------------
 #define WL_ESP_WIFI_SSID      	"WL_WIFI_SSID"			//your wifi access point
