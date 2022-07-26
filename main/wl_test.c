@@ -19,6 +19,7 @@
 #include "homie.h"
 #include "driver/gpio.h"
 
+// GitHubTest. Branch2
 
 //--------------- user defined --------------
 #define WL_ESP_WIFI_SSID      	"WL_WIFI_SSID"			//your wifi access point
